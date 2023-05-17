@@ -1,4 +1,22 @@
 .container {
   width: 1200px;
-  position: center;
+}
+menu {
+  display: flex;
+  gap: 46px;
+  margin: 32px 0px 32px 93px;
+}
+.top-menu {
+  display: flex;
+  align-items: center;
+}
+.top-site {
+  display: flex;
+  justify-content: center;
+}
+.navi-top {
+  display: flex;
+  justify-content: flex-end;
+  gap: 50px;
+  margin: 32px 0px 32px 371px;
 }

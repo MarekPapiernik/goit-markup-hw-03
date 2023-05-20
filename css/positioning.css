@@ -2,6 +2,10 @@
   width: 1200px;
   margin: 0px auto;
 }
+.container-index {
+  width: 1600px;
+  margin: 0px auto;
+}
 menu {
   display: flex;
   gap: 46px;
@@ -12,15 +16,19 @@ menu {
   align-items: center;
   width: 1200px;
 }
+.top-menu-index {
+  display: flex;
+  align-items: center;
+  width: 1600px;
+  height: 80px;
+}
 .top-site {
   display: flex;
-  justify-content: center;
+
+  align-items: center;
+  margin: auto;
 }
-.navi-top {
-  display: flex;
-  gap: 50px;
-  margin: 32px 0px 32px 371px;
-}
+
 .button-list-port {
   display: flex;
   flex-wrap: wrap;
@@ -58,6 +66,16 @@ img {
   gap: 50px;
   margin-left: 364px;
 }
+.first-baby-index {
+  display: flex;
+  align-items: center;
+  padding-left: 215px;
+}
+.second-baby-index {
+  display: flex;
+  gap: 50px;
+  margin-left: 371px;
+}
 figure {
   margin: 0px;
   border: 1px solid #eeeeee;
@@ -85,4 +103,21 @@ main {
 }
 address {
   gap: 9px;
+}
+.lorem-list {
+  display: flex;
+  row-gap: 10px;
+  column-gap: 30px;
+  width: 1170px;
+  justify-content: space-between;
+}
+
+.index-lorem {
+  max-width: 1170px;
+  margin: 94px 215px 94px 215px;
+}
+.service {
+  padding: 30px 700px 200px 700px;
+}
+.index-what {
 }

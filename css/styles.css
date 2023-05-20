@@ -24,7 +24,7 @@ body {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.19;
+  line-height: 1.2;
   margin-top: 24px;
 
   /* identical to box height */
@@ -51,12 +51,12 @@ body {
 
   color: var(--background-color);
 }
-p {
-  color: var(--background-color);
-}
+
 footer {
   width: 1600px;
   height: 252px;
+  display: flex;
+  margin: auto;
   background: #2f303a;
 }
 a {
@@ -135,17 +135,19 @@ p1 {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-
+  text-align: center;
+  padding: 20px 24px 4px 24px;
   /* identical to box height, or 200% */
   letter-spacing: 0.06em;
 }
 p2 {
   font-size: 16px;
   line-height: 1.9;
+  padding: 4px 24px 20px 24px;
 
   /* identical to box height, or 188% */
   letter-spacing: 0.03em;
-
+  text-align: center;
   color: var(--gray-color);
 }
 p3 {

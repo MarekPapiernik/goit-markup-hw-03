@@ -21,14 +21,6 @@ menu {
   gap: 50px;
   margin: 32px 0px 32px 371px;
 }
-.port-fotos {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-  padding: 0px;
-  list-style: none;
-  justify-content: center;
-}
 .button-list-port {
   display: flex;
   flex-wrap: wrap;
@@ -37,9 +29,18 @@ menu {
   list-style: none;
   justify-content: center;
 }
+.port-fotos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 0;
+  list-style-type: none;
+  justify-content: center;
+}
+
 .foto-list {
   flex-direction: column;
-  margin: unset;
+
   flex-basis: calc((100% - 60px) / 3);
 }
 img {
@@ -49,7 +50,7 @@ img {
 }
 .first-baby {
   display: flex;
-  gap: 93;
+
   align-items: center;
 }
 .second-baby {
@@ -58,12 +59,30 @@ img {
   margin-left: 364px;
 }
 figure {
+  margin: 0px;
   border: 1px solid #eeeeee;
+  width: 370px;
 }
 header {
-  border: 1px solid #ececec;
-  margin-bottom: 94px;
+  border-bottom: 1px solid #ececec;
+
+  width: 1600px;
+  align-items: center;
+  margin: auto;
 }
 main {
   margin-bottom: 94px;
+  margin-top: 94px;
+}
+.portfolio-bottom-logo {
+  padding: 60px 1040px 20px 15px;
+}
+.foot-adress {
+  color: var(--background-color);
+  padding: 20px 938px 60px 15px;
+  font-size: 14px;
+  line-height: 1.7;
+}
+address {
+  gap: 9px;
 }

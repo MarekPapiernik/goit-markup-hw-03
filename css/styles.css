@@ -1,4 +1,5 @@
 @import url("./positioning.css");
+
 .buttons:hover,
 .buttons:focus {
   background: var(--brand-blue);
@@ -7,11 +8,13 @@
   line-height: 1.6;
   font-weight: 500;
 }
+
 .buttons {
   font-weight: 500;
   line-height: 1.6;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
 body {
   --font-color: #212121;
   --background-color: #ffffff;
@@ -19,6 +22,7 @@ body {
   --brand-blue: #2196f3;
   --gray-color: #757575;
 }
+
 .blue {
   color: var(--brand-blue);
   font-family: "Raleway";
@@ -30,6 +34,7 @@ body {
   /* identical to box height */
   letter-spacing: 0.03em;
 }
+
 .logo {
   color: #000000;
   font-family: "Raleway";
@@ -40,6 +45,7 @@ body {
   /* identical to box height */
   letter-spacing: 0.03em;
 }
+
 .logo-white {
   font-family: "Raleway";
   font-weight: 700;
@@ -59,6 +65,7 @@ footer {
   margin: auto;
   background: #2f303a;
 }
+
 a {
   color: rgba(255, 255, 255, 0.6);
   line-height: 1.7;
@@ -73,6 +80,7 @@ a {
   letter-spacing: 0.02em;
   color: var(--font-color);
 }
+
 .menu-links:hover,
 .menu-links:focus {
   font-family: "Roboto";
@@ -82,6 +90,7 @@ a {
   letter-spacing: 0.02em;
   color: var(--brand-blue);
 }
+
 .menu-links-two {
   font-weight: 500;
   font-size: 14px;
@@ -90,6 +99,7 @@ a {
 
   color: var(--font-color);
 }
+
 .menu-links-two:hover,
 .menu-links-two:focus {
   font-weight: 500;
@@ -99,6 +109,7 @@ a {
 
   color: var(--brand-blue);
 }
+
 .menu-links-three {
   font-weight: 500;
   font-size: 14px;
@@ -106,6 +117,7 @@ a {
   letter-spacing: 0.02em;
   color: var(--font-color);
 }
+
 .menu-links-three:hover,
 .menu-links-three:focus {
   font-weight: 500;
@@ -114,6 +126,7 @@ a {
   letter-spacing: 0.02em;
   color: var(--brand-blue);
 }
+
 .header-link {
   font-weight: 500;
   font-size: 14px;
@@ -122,6 +135,7 @@ a {
 
   color: var(--gray-color);
 }
+
 .header-link:hover,
 .header-link:focus {
   font-weight: 500;
@@ -131,6 +145,7 @@ a {
 
   color: var(--brand-blue);
 }
+
 p1 {
   font-weight: 700;
   font-size: 18px;
@@ -140,6 +155,7 @@ p1 {
   /* identical to box height, or 200% */
   letter-spacing: 0.06em;
 }
+
 p2 {
   font-size: 16px;
   line-height: 1.9;
@@ -150,6 +166,7 @@ p2 {
   text-align: center;
   color: var(--gray-color);
 }
+
 p3 {
   font-weight: 500;
   font-size: 16px;
@@ -157,18 +174,26 @@ p3 {
 
   /* identical to box height */
   text-align: center;
+  display: flex;
   letter-spacing: 0.03em;
+  padding: 30px 99px 10px 99px;
+  display: inline-block;
 }
+
 p4 {
   font-size: 16px;
   line-height: 1.2;
 
   /* identical to box height */
   text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
   letter-spacing: 0.03em;
 
   color: var(--gray-color);
 }
+
 .email-underline {
   text-decoration: underline;
   color: rgba(255, 255, 255, 0.6);
@@ -182,6 +207,7 @@ p4 {
 
   color: var(--font-color);
 }
+
 .menu-index:hover,
 .menu-index:focus {
   font-weight: 500;
@@ -191,6 +217,7 @@ p4 {
 
   color: var(--brand-blue);
 }
+
 .menu-index-two {
   font-weight: 500;
   font-size: 14px;
@@ -198,6 +225,7 @@ p4 {
   letter-spacing: 0.02em;
   color: var(--font-color);
 }
+
 .menu-index-two:hover,
 .menu-index-two:focus {
   font-weight: 500;
@@ -206,6 +234,7 @@ p4 {
   letter-spacing: 0.02em;
   color: var(--brand-blue);
 }
+
 .menu-index-three {
   font-weight: 500;
   font-size: 14px;
@@ -213,6 +242,7 @@ p4 {
   letter-spacing: 0.02em;
   color: var(--font-color);
 }
+
 .menu-index-three:hover,
 .menu-index-three:focus {
   font-weight: 500;
@@ -221,26 +251,28 @@ p4 {
   letter-spacing: 0.02em;
   color: var(--brand-blue);
 }
+
 .header-index {
   background: #2f303a;
   height: 600px;
+  margin: 0 auto;
+  max-width: 1600px;
+  padding: 200px 0;
 }
+
 .header-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  padding: 200px 452px 30px 452px;
-  margin: 0;
-
-  display: flex;
-
-  /* or 136% */
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-
   color: var(--background-color);
+  max-width: 696px;
+  text-align: center;
+  margin: 0 auto;
+  flex-wrap: wrap;
 }
+
 .index-button:hover,
 .index-button:focus {
   cursor: pointer;
@@ -252,6 +284,7 @@ p4 {
   width: 200px;
   height: 50px;
 }
+
 .index-button {
   background: var(--brand-blue);
   font-weight: 700;
@@ -262,23 +295,25 @@ p4 {
   width: 200px;
   height: 50px;
 }
+
 h3 {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: var(--font-color);
 }
+
 .ipsum {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
-
   /* or 171% */
   letter-spacing: 0.03em;
-
   color: var(--gray-color);
 }
+
 h2 {
   font-weight: 700;
   font-size: 36px;
@@ -286,6 +321,7 @@ h2 {
   text-align: center;
   letter-spacing: 0.03em;
 }
+
 .blue-index {
   color: var(--brand-blue);
   font-family: "Raleway";
@@ -296,6 +332,7 @@ h2 {
   /* identical to box height */
   letter-spacing: 0.03em;
 }
+
 li {
   list-style-type: none;
 }
